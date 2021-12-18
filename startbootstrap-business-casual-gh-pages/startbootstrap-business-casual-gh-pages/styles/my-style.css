@@ -1,0 +1,50 @@
+:root{
+    --main: rgb(0, 30, 60);
+    --accent-1: rgb(125, 255, 125);
+    --accent-15: rgb(225,255,225);
+    --accent-2: rgb(255, 255, 255);
+    --accent-3: rgb(0, 0, 0);
+}
+.my-header{
+    background-color: var(--main) !important;
+    color: var(--main) !important;
+}
+.my-header-text{
+    color: var(--accent-1) !important;
+    text-decoration-color: var(--accent-1) !important;
+}
+.my-subheader{
+    text-decoration-color: var(--accent-15) !important;
+}
+.my-secondary-box{
+    background-color:var(--accent-15);
+    color: var(--accent-15);
+}
+.my-footer{
+    background-color: var(--main) !important;
+}
+.my-buttons{
+    background-color:var(--accent-1) !important;
+}
+.my-body{
+    background-color: var(--accent-2) !important;
+}
+.my-box{
+    background-color: var(--accent-15) !important;
+}
+.my-box-2{
+    background-color: var(--accent-1);
+}
+.my-navbar{
+    background-color: var(--main) !important;
+}
+.my-container{
+    background-color: var(--main) !important;
+}
+.my-link{
+    text-decoration-color: rgb(0, 30, 60);
+}
+.my-video{
+    display: block;
+    margin: 0 auto;
+}

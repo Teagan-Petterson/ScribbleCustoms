@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(65, 70, 94);
+    font-family: Helvetica, Arial, sans-serif;
+}
+h2 {
+    font-family: 'Brush Script MT', cursive;
+}
+.fancy {
+    color: whitesmoke;
+}
+h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 4.5em;
+    text-align: center;
+}
+#nuggetheader {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+    border: black 4px solid;
+    padding:10px;
+}
+a {
+    display: inline;
+}
+ul {
+    list-style-type:square;
+    list-style-image: url('./images/bullet_black_16.png');
+}
+
+.menu {
+    display: flex;
+    border: dashed 3px wheat;
+    background-color: darkslategrey;
+    color: white;
+
+}
+
+.menu li{
+    text-align: center;
+    padding: 5px 5px;
+    flex-grow: 3;
+    height: 50px;
+    list-style: none;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 50px;
+    gap: 15%;
+}
+
+.grid-item {
+background-color: hsl(240, 35%, 25%);
+border: solid 2px rgb(150, 255, 159);
+text-align: center;
+border-radius: 25px;
+}
+
+.grid-item img {
+    width: 80%;
+}
+
+.item7 {
+    grid-column: 2;
+}
+
+.footer {
+    grid-row: 4;
+    grid-column: 1 / span 3;
+    color: darkgray;
+    margin: 0px;
+}
+
+#fingers {
+    width: 100%;
+}
+
+.truth {
+    background-color: rgb(230, 211, 187);
+    padding: 20px;
+    margin: 30px;
+    float: right;
+}
+
+.haiku {
+font-family: 'Amatic SC', cursive;
+font-size: 3em;
+text-align: center;
+}
+
+
+/* Some Possible Styles For Positioning
+
+
+.menu {
+    display: flex;
+    height: 50px;
+    padding: 5px;
+    font-size: 26px;
+    list-style: none;
+    background-color: #13141c;
+    color: white;
+    margin: -10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: row;
+}
+  
+  .menu li {
+    text-align: center;
+    padding: 5px 5px;
+    flex-grow: 3;
+  }
+
+  .menu li a {
+      color: white;
+      text-decoration: none;
+  }
+
+  .menu li a:hover {
+      font-size: 30px;
+  }
+
+  .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 50px;
+        gap: 50px;
+  }
+
+  .grid-item {
+    background-color: bisque;
+    border: solid 2px brown;
+    text-align: center;
+    border-radius: 25px;
+  }
+
+  .grid-item img {
+      width: 80%;
+  }
+  
+  .item7 {
+      grid-column: 2;
+  }
+
+  .footer {
+      grid-row: 4;
+      grid-column: 1 / span 3;
+      color: darkgray;
+      margin: 0px;
+  }
+
+  #fingers {
+      width: 100%;
+  }
+
+  .truth {
+      background-color: rgb(230, 211, 187);
+      padding: 20px;
+      margin: 30px;
+      float: right;
+  }
+
+  .haiku {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    text-align: center;
+  }
+  */
