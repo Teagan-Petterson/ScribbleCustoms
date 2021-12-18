@@ -44,3 +44,7 @@
 .my-link{
     text-decoration-color: rgb(0, 30, 60);
 }
+.my-video{
+    margin: 0 auto;
+    width: 50%;
+}
